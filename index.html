@@ -8,21 +8,22 @@
   </head>
   <body>
     <header>
-      <h1 class="header">Dr. Norman Borlaug</h1>
+      <h1 id="title">Dr. Norman Borlaug</h1>
       <p class="description">The man who saved a billion lives</p>
     </header>
-    <main>
-      <figure>
+    <main id="main">
+      <figure id="img-div">
         <img
+          id="image"
           src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg"
         />
-        <figcaption>
+        <figcaption id="img-caption">
           Dr. Norman Borlaug, third from the left, trains biologists in Mexico
           on how to increase wheat yields - part of his life-long war on hunger.
         </figcaption>
       </figure>
       <section class="testimony">
-        <h2>Here's a time line of Dr. Borlaug's life:</h2>
+        <h3 id="tribute-info">Here's a time line of Dr. Borlaug's life:</h3>
         <ul class="achievements">
           <li><span>1914</span> - Born in Cresco, Iowa</li>
           <li>
@@ -95,12 +96,13 @@
           <li><span>2009</span> - dies at the age of 95.</li>
         </ul>
         <div class="quote">
-          <p>
+          <i>
             "Borlaug's life and achievement are testimony to the far-reaching
             contribution that one man's towering intellect, persistence and
             scientific vision can make to human peace and progress."
-          </p>
-          <p>-- Indian Prime Minister Manmohan Singh</p>
+          </i>
+          <br />
+          <i>-- Indian Prime Minister Manmohan Singh</i>
         </div>
       </section>
     </main>
@@ -108,7 +110,10 @@
       <h2>
         If you have time, you should read more about this incredible human being
         on his
-        <a href="https://en.wikipedia.org/wiki/Norman_Borlaug"
+        <a
+          id="tribute-link"
+          href="https://en.wikipedia.org/wiki/Norman_Borlaug"
+          target="_blank"
           >Wikipedia entry</a
         >.
       </h2>
